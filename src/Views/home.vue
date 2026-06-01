@@ -3,7 +3,7 @@ import heroImage from '../Assets/Image/pic3.png'
 import volcanoImage from '../Assets/Image/image1.png'
 import akageraImage from '../Assets/Image/image2.png'
 import nyungweImage from '../Assets/Image/image4.png'
-import kigaliImage from '../Assets/Image/pic5.png'
+import kigaliImage from '../Assets/Image/pic4.png'
 </script>
 
 <template>
@@ -17,10 +17,10 @@ import kigaliImage from '../Assets/Image/pic5.png'
         Discover breathtaking landscapes, unforgettable wildlife, warm local culture, and curated travel services for every visitor.
       </p>
       <div class="flex flex-col sm:flex-row justify-center gap-4">
-        <router-link to="/Services" class="rounded-full bg-yellow-300 px-8 py-3 text-green-900 font-semibold hover:bg-yellow-400 transition">
+        <router-link to="/services" class="rounded-full bg-yellow-300 px-8 py-3 text-green-900 font-semibold hover:bg-yellow-400 transition">
           Explore Services
         </router-link>
-        <router-link to="/Contact" class="rounded-full border border-white px-8 py-3 text-white hover:bg-white hover:text-green-900 transition">
+        <router-link to="/contact" class="rounded-full border border-white px-8 py-3 text-white hover:bg-white hover:text-green-900 transition">
           Plan Your Trip
         </router-link>
       </div>
@@ -64,7 +64,7 @@ import kigaliImage from '../Assets/Image/pic5.png'
           <div class="p-6">
             <h3 class="text-2xl font-semibold mb-3">Volcanoes National Park</h3>
             <p class="leading-7 mb-4">Home to mountain gorillas and golden monkeys, this park is Rwanda’s most iconic wildlife destination.</p>
-            <router-link to="/North" class="inline-block text-sm font-semibold text-yellow-600 hover:text-yellow-700">Learn more →</router-link>
+            <router-link to="/north" class="inline-block text-sm font-semibold text-yellow-600 hover:text-yellow-700">Learn more →</router-link>
           </div>
         </article>
 
@@ -73,7 +73,7 @@ import kigaliImage from '../Assets/Image/pic5.png'
           <div class="p-6">
             <h3 class="text-2xl font-semibold mb-3">Akagera National Park</h3>
             <p class="leading-7 mb-4">Savannah landscapes, big game, and boat safaris make Akagera perfect for classic African wildlife adventures.</p>
-            <router-link to="/East" class="inline-block text-sm font-semibold text-yellow-600 hover:text-yellow-700">Learn more →</router-link>
+            <router-link to="/east" class="inline-block text-sm font-semibold text-yellow-600 hover:text-yellow-700">Learn more →</router-link>
           </div>
         </article>
 
@@ -82,7 +82,7 @@ import kigaliImage from '../Assets/Image/pic5.png'
           <div class="p-6">
             <h3 class="text-2xl font-semibold mb-3">Nyungwe Forest</h3>
             <p class="leading-7 mb-4">Enjoy rainforest walks, chimpanzee tracking, and the canopy walkway in one of Africa’s oldest forests.</p>
-            <router-link to="/South" class="inline-block text-sm font-semibold text-yellow-600 hover:text-yellow-700">Learn more →</router-link>
+            <router-link to="/south" class="inline-block text-sm font-semibold text-yellow-600 hover:text-yellow-700">Learn more →</router-link>
           </div>
         </article>
       </div>
@@ -93,9 +93,68 @@ import kigaliImage from '../Assets/Image/pic5.png'
           <div class="p-6">
             <h3 class="text-2xl font-semibold mb-3">Kigali City</h3>
             <p class="leading-7 mb-4">A vibrant capital with modern dining, markets, museums, and a warm gateway into Rwanda’s culture and hospitality.</p>
-            <router-link to="/Kigali" class="inline-block text-sm font-semibold text-yellow-600 hover:text-yellow-700">Learn more →</router-link>
+            <router-link to="/kigali" class="inline-block text-sm font-semibold text-yellow-600 hover:text-yellow-700">Learn more →</router-link>
           </div>
         </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Elite Concierge Section -->
+  <section class="bg-slate-950 text-white py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="mb-10 text-center">
+        <p class="uppercase tracking-[0.4em] text-sm text-emerald-300 mb-3">Elite Travel</p>
+        <h2 class="text-4xl font-bold">Luxury & VIP Experiences</h2>
+        <p class="max-w-3xl mx-auto mt-4 text-lg leading-8 text-slate-300">
+          Upgrade your journey with private tours, luxury lodges, and concierge support for a seamless Rwanda experience.
+        </p>
+      </div>
+
+      <div class="grid gap-6 lg:grid-cols-3">
+        <div class="rounded-3xl bg-slate-800 p-8 border border-slate-700 shadow-2xl shadow-black/20">
+          <h3 class="text-2xl font-semibold mb-4 text-white">Private Safari & Wildlife</h3>
+          <p class="leading-7 text-slate-300 mb-4">Enjoy exclusive game drives, private guides, and flexible itineraries tailored to your interests.</p>
+          <p class="text-sm text-emerald-300 font-semibold">Ideal for families and VIP travelers.</p>
+        </div>
+        <div class="rounded-3xl bg-slate-800 p-8 border border-slate-700 shadow-2xl shadow-black/20">
+          <h3 class="text-2xl font-semibold mb-4 text-white">Luxury Forest Escapes</h3>
+          <p class="leading-7 text-slate-300 mb-4">Stay in premium eco-lodges and boutique camps near Nyungwe and Volcanoes National Park.</p>
+          <p class="text-sm text-emerald-300 font-semibold">Perfect for honeymooners and photographers.</p>
+        </div>
+        <div class="rounded-3xl bg-slate-800 p-8 border border-slate-700 shadow-2xl shadow-black/20">
+          <h3 class="text-2xl font-semibold mb-4 text-white">Elite Concierge Services</h3>
+          <p class="leading-7 text-slate-300 mb-4">Get 24/7 support, private transfers, VIP reservations, and curated cultural experiences.</p>
+          <p class="text-sm text-emerald-300 font-semibold">Everything arranged before you arrive.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Useful Travel Tools -->
+  <section class="bg-white text-green-900 py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="mb-10 text-center">
+        <p class="uppercase tracking-[0.4em] text-sm text-green-700 mb-3">Useful Travel Info</p>
+        <h2 class="text-4xl font-bold">Travel smarter in Rwanda</h2>
+        <p class="max-w-3xl mx-auto mt-4 text-lg leading-8 text-green-800">
+          Practical travel tools and local tips to help you plan the perfect itinerary, from visa requirements to season advice.
+        </p>
+      </div>
+
+      <div class="grid gap-6 lg:grid-cols-3">
+        <div class="rounded-3xl border border-green-100 bg-green-50 p-8 shadow-sm">
+          <h3 class="text-2xl font-semibold mb-4 text-green-800">Visa & Entry</h3>
+          <p class="leading-7 text-green-700">Learn the latest visa rules, permit requirements, and entry process for Rwanda.</p>
+        </div>
+        <div class="rounded-3xl border border-green-100 bg-green-50 p-8 shadow-sm">
+          <h3 class="text-2xl font-semibold mb-4 text-green-800">Packing & Weather</h3>
+          <p class="leading-7 text-green-700">Prepare with smart packing advice for dry and green seasons across the country.</p>
+        </div>
+        <div class="rounded-3xl border border-green-100 bg-green-50 p-8 shadow-sm">
+          <h3 class="text-2xl font-semibold mb-4 text-green-800">Local Culture</h3>
+          <p class="leading-7 text-green-700">Discover cultural etiquette, language tips, and meaningful local experiences.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -108,10 +167,10 @@ import kigaliImage from '../Assets/Image/pic5.png'
         Book your personalized itinerary today and let us handle the details: accommodations, transportation, tours, and unforgettable experiences.
       </p>
       <div class="flex flex-col sm:flex-row justify-center gap-4">
-        <router-link to="/Contact" class="rounded-full bg-yellow-300 px-10 py-3 text-green-900 font-semibold hover:bg-yellow-400 transition">
+        <router-link to="/contact" class="rounded-full bg-yellow-300 px-10 py-3 text-green-900 font-semibold hover:bg-yellow-400 transition">
           Start Your Journey
         </router-link>
-        <router-link to="/Services" class="rounded-full border border-white px-10 py-3 text-white hover:bg-white hover:text-green-900 transition">
+        <router-link to="/services" class="rounded-full border border-white px-10 py-3 text-white hover:bg-white hover:text-green-900 transition">
           View Our Tours
         </router-link>
       </div>
