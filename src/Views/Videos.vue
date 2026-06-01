@@ -107,6 +107,22 @@
             <p class="text-xs text-green-600">Duration: 10:20 min</p>
           </div>
         </div>
+
+        <!-- Featured Video 7: Happy March -->
+        <div class="rounded-2xl overflow-hidden border border-green-100 shadow-md hover:shadow-lg transition">
+          <div class="bg-black h-48 flex items-center justify-center relative group cursor-pointer">
+            <div class="text-6xl absolute group-hover:scale-110 transition">▶️</div>
+            <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition"></div>
+            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-4">
+              <p class="text-white text-sm font-semibold">Happy March - Kigali Celebration</p>
+            </div>
+          </div>
+          <div class="p-4">
+            <h3 class="font-semibold text-green-800 mb-2">Happy March - Visit Rwanda</h3>
+            <p class="text-sm text-green-700 mb-3">Celebrate Rwanda's vibrant culture and joy in this uplifting video showcasing Kigali's energy, community spirit, and the warmth of Rwandan hospitality. #VisitRwanda #Kigali</p>
+            <p class="text-xs text-green-600">Duration: 7:30 min</p>
+          </div>
+        </div>
       </div>
 
       <!-- Video Categories -->
